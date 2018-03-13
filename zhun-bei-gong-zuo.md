@@ -6,7 +6,7 @@
 git clone https://github.com/apache/rocketmq.git
 cd rocketmq
 
-# 查看发布版本
+# 查看发布版本（一般情况下公司的每个发布版本都会打一个tag）
 git tag
 ```
 

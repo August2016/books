@@ -13,6 +13,7 @@ git tag
 ![](/assets/WX20180313-145441@2x.png)
 
 ```
+# 切换到稳定版本4.2.0
 git branch -b rocketmq-all-4.2.0
 ```
 

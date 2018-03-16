@@ -17,5 +17,7 @@ Java NIO中比较重要的几种channe实现如下:
 * SocketChannel: 网络TCP读写
 * ServerSocketChannel: 作为server监听TCP连结请求
 
+### FileChannel
+
 
 

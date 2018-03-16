@@ -12,10 +12,10 @@ Java Channel有如下几个特点:
 
 Java NIO中比较重要的几种channe实现如下:
 
-* FileChannel
-* DatagramChannel
-* SocketChannel
-* ServerSocketChannel
+* FileChannel : 文件读写
+* DatagramChannel: 网络UDP读写
+* SocketChannel: 网络TCP读写
+* ServerSocketChannel: 作为server监听TCP连结请求
 
 
 

@@ -19,17 +19,27 @@ Java NIO中比较重要的几种channe实现如下:
 
 ### FileChannel
 
+```
 
+```
 
 ### DatagramChannel
 
+```
 
+```
 
 ### SocketChannel
 
+```
 
+```
 
 ### ServerSocketChannel
+
+```
+
+```
 
 
 

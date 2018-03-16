@@ -8,9 +8,14 @@ Java Channel有如下几个特点:
 
 ![](/assets/channel-and-buffer.png)
 
-
-
 ## Channel的实现
+
+Java NIO中比较重要的几种channe实现如下:
+
+* FileChannel
+* DatagramChannel
+* SocketChannel
+* ServerSocketChannel
 
 
 

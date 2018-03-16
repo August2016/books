@@ -10,7 +10,5 @@
 * Java 技术
   * [Java NIO](java-nio.md)
     * [介绍](java-nio/jie-shao.md)
-    * Channel
-
-
+    * [Channel](java-nio/channel.md)
 

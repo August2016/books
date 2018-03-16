@@ -1,10 +1,10 @@
 # Channel
 
-Java NIO Channels are similar to streams with a few differences:
+Java Channel有如下几个特点:
 
-* You can both read and write to a Channels. Streams are typically one-way \(read or write\).
-* Channels can be read and written asynchronously.
-* Channels always read to, or write from, a Buffer.
+* 一个channel支持同时读写
+* channel支持异步读写
+* channel总是同buffer配合进行读写
 
 
 

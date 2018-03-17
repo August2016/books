@@ -1,14 +1,12 @@
 # Java动态代理
 
-aspectj
-
 jdk proxy
+
+aspectj
 
 javassist
 
 asm
 
 cglib
-
-
 

@@ -3,7 +3,7 @@
 ## 编译
 
 ```
-# 准备工作中已经进入到项目（以下命令跳过执行测试）
+# 准备工作中已经进入到项目（-DskipTests跳过执行测试）
 mvn -Prelease-all -DskipTests clean install -U
 ```
 

@@ -21,7 +21,7 @@ ByteBuffer buf = ByteBuffer.allocate(48);
 
 int bytesRead = inChannel.read(buf); 
 while (bytesRead != -1) {
-  buf.flip();
+  buf.flip();//设置为读取模式
 
   while(buf.hasRemaining()){
       System.out.print((char) buf.get());

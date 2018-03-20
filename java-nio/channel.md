@@ -14,7 +14,7 @@ Java NIO中比较重要的几种channe实现如下:
 
 * FileChannel : 文件读写
 * DatagramChannel: 网络UDP数据接收和发送
-* SocketChannel: 网络TCP请求读写
+* SocketChannel: 网络TCP请求接收和发送
 * ServerSocketChannel: 作为server监听TCP连结请求
 
 ### FileChannel

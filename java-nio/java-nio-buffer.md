@@ -35,5 +35,21 @@ aFile.close();
 
 ## Buffer Capacity, Position and Limit
 
-Buffer有
+Buffer中有3个属性需要掌握:
+
+* capacity
+* position
+* limit
+
+capacity是指申请的buffer空间大小，可以认为是固定不变的，但是position和limit会根据读写模式进行变化。
+
+![](/assets/java-nio-buffer-mode1.png)
+
+### Capacity
+
+Buffer固定的内存块大小。当数据存储满后   需求清空才能继续存储。
+
+### Position
+
+
 

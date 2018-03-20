@@ -27,7 +27,7 @@ while (bytesRead != -1) {
       System.out.print((char) buf.get());
   }
 
-  buf.clear();
+  buf.clear();//设置为写入模式
   bytesRead = inChannel.read(buf);
 }
 aFile.close();

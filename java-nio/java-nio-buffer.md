@@ -7,15 +7,9 @@ NIO Buffer本质上是一块内存区域，可以进行数据写入然后读取�
 ## 基本使用方法
 
 1. 写数据到buffer
-   1. Call
-      `buffer.flip()`
-   2. Read data out of the Buffer
-   3. Call
-      `buffer.clear()`
-      or
-      `buffer.compact()`
-
-  
+2. 调用buffer.flip\(\)  切换到读取模式
+3. 从buffer读数据
+4. 调用buffer.clear 或者`buffer.compact() `切换到写入模式
 
 
 

@@ -11,7 +11,7 @@ NIO Buffer本质上是一块内存区域，可以进行数据写入然后读取�
 3. 从buffer读数据
 4. 调用buffer.clear 或者`buffer.compact()`切换到写入模式
 
-demo
+例子:
 
 
 

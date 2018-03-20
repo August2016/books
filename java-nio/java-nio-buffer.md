@@ -35,3 +35,7 @@ aFile.close();
 
 
 
+## Buffer Capacity, Position and Limit
+
+
+

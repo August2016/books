@@ -11,8 +11,6 @@
   * [Java NIO](java-nio.md)
     * [介绍](java-nio/jie-shao.md)
     * [Channel](java-nio/channel.md)
-    * Java NIO Buffer
+    * [Java NIO Buffer](java-nio/java-nio-buffer.md)
   * [Java动态代理](javadong-tai-dai-li.md)
-
-
 

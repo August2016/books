@@ -33,8 +33,6 @@ while (bytesRead != -1) {
 aFile.close();
 ```
 
-
-
 ## Buffer Capacity, Position and Limit
 
 

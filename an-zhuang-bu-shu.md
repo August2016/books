@@ -3,7 +3,7 @@
 ## 编译
 
 ```
-# 准备工作中已经进入到项目
+# 准备工作中已经进入到项目（以下命令跳过执行测试）
 mvn -Prelease-all -DskipTests clean install -U
 ```
 
@@ -15,7 +15,7 @@ mvn -Prelease-all -DskipTests clean install -U
 
 ## 启动Broker
 
-## 启动客户端 
+## 启动客户端
 
 
 

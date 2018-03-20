@@ -17,19 +17,18 @@ NIO Buffer本质上是一块内存区域，可以进行数据写入然后读取�
 RandomAccessFile aFile = new RandomAccessFile("data/nio-data.txt", "rw");
 FileChannel inChannel = aFile.getChannel();
 
-//create buffer with capacity of 48 bytes
 ByteBuffer buf = ByteBuffer.allocate(48);
 
-int bytesRead = inChannel.read(buf); //read into buffer.
+int bytesRead = inChannel.read(buf); 
 while (bytesRead != -1) {
 
-  buf.flip();  //make buffer ready for read
+  buf.flip();
 
   while(buf.hasRemaining()){
-      System.out.print((char) buf.get()); // read 1 byte at a time
+      System.out.print((char) buf.get());
   }
 
-  buf.clear(); //make buffer ready for writing
+  buf.clear();
   bytesRead = inChannel.read(buf);
 }
 aFile.close();

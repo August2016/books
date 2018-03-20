@@ -1,7 +1,5 @@
 # 编译安装
 
-
-
 ## 编译
 
 ```
@@ -13,9 +11,7 @@ mvn -Prelease-all -DskipTests clean install -U
 
 ![](/assets/rocket-mq-build-success.png)
 
-
-
-## 启动  
+## 启动Name Server
 
 
 

@@ -8,7 +8,7 @@
     * [Remoting模块说明](xiang-mu-jie-gou-shuo-ming.md)
     * [Comman模块说明](comman.md)
     * [Store模块说明](storemo-kuai-shuo-ming.md)
-* Java 技术
+* [Java 技术](java-ji-zhu.md)
   * [Java NIO](java-nio.md)
     * [介绍](java-nio/jie-shao.md)
     * [Channel](java-nio/channel.md)

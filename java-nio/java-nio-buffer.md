@@ -21,7 +21,6 @@ ByteBuffer buf = ByteBuffer.allocate(48);
 
 int bytesRead = inChannel.read(buf); 
 while (bytesRead != -1) {
-
   buf.flip();
 
   while(buf.hasRemaining()){
